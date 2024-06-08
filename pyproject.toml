@@ -1,0 +1,37 @@
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "commonops"
+version = "1.0.0"
+authors = [
+  { name="@rafsanlab" },
+]
+description = "A small python package for common operations."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[metadata]
+name = "commonops"
+version = "1.0.0"
+description = "A small python package for common operations."
+author = "M. R. Rafsanjani"
+author_email = ""
+license = "MIT"
+keywords = ["common", "files", "operations"]
+
+[options]
+python_requires = ">=3.10"
+
+[tool.black]
+line-length = 80
+include = "\\.pyi?$"
+
+[project.urls]
+Homepage = "https://github.com/rafsanlab/commonops"
