@@ -1,10 +1,15 @@
+LICENSE
 LICENSE.txt
 README.md
 pyproject.toml
+requirements.txt
 src/commonops/__init__.py
 src/commonops.egg-info/PKG-INFO
 src/commonops.egg-info/SOURCES.txt
 src/commonops.egg-info/dependency_links.txt
+src/commonops.egg-info/requires.txt
 src/commonops.egg-info/top_level.txt
 src/commonops/fileops/__init__.py
 src/commonops/fileops/fileops.py
+src/commonops/zipops/__init__.py
+src/commonops/zipops/zipops.py
